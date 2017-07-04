@@ -1,0 +1,24 @@
+package projects;
+
+import java.util.Scanner;
+
+public class FeetToInches {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Feet to Inches Converter");
+		System.out.println(" ");
+		
+		Scanner convert = new Scanner(System.in);
+		System.out.println("Please, enter feet amount:");
+		int feetinch = convert.nextInt();
+		
+		System.out.println("Result:");
+		System.out.print(feetinch * 12);
+		System.out.println(" inches");
+		
+
+	}
+
+}

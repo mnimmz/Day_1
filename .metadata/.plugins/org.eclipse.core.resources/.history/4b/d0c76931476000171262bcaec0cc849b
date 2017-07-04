@@ -1,0 +1,16 @@
+package projects;
+
+import java.util.Scanner;
+
+public class FeetToInches {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Feet to Inches Converter");
+		Scanner convert = new Scanner(System.in);
+		
+
+	}
+
+}
